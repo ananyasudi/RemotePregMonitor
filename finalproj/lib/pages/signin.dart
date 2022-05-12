@@ -1,17 +1,12 @@
 import 'dart:convert';
 import 'package:http/http.dart';
 
-// var request_parameters={ 'grant_type': 'refresh_token',
-//     'client_id': '1000.MH99YE31SRAOFAEEUZVSW9D10HJ06V', 
-//     'client_secret': 'be76cf0551854a8e0a0655d73e3f4849b6b6d61ee7', 
-//     // 'redirect_uri': 'https://google.com', 
-//     'refresh_token':'1000.2726203feef57d7783327d3543d33993.6b394f565d858b55c87066c5051ca211'
-// };
+
 var request_parameters={ 'grant_type': 'refresh_token',
-    'client_id': '1000.MOKBOAAZIW9CTDDB571Y76GLA6FWPE', 
-    'client_secret': 'cd78be582a7ad7b3c69e83feeb562ba6ffab3a4e7a', 
+    'client_id': '1000.xxxxxxxxxxxxxxxxxxxxx', 
+    'client_secret': 'xxxxxxxxxxxxxxxxxxxxxxx', 
     // 'redirect_uri': 'https://google.com', 
-    'refresh_token':'1000.b6c0a7a307bc5ee6634074f2df1c4bd4.c0b3453abd530bb17163a186dfe23522'
+    'refresh_token':'1000.xxxxxxxxxxxxxx.xxxxxxxxxxxxxxx'
 };
 Future<String> get_access_token()async{
   late var access_token;
